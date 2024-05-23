@@ -14,91 +14,104 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-.geral{
-   
+
+.cabe{
+    background-color: rgb(33, 71, 153);
     height: 100px;
     margin-top: 10px;
-}
-.cabecalho{
-    background-color: rgb(33, 71, 153);
-    height: 110%;
-    margin-top: 20px;
-    text-align: center;
-    display: flex;
-      flex-direction: column;
-      justify-content: center;
-}
-.tudo{
-    display: flex;
-}
-.conteudo1{
-    background-color: green;
-    margin-top: 10px;
-    height: 400px;  
-   width: 475px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
    
+}
+.cabe header{
+   color: aliceblue;
+   text-align: center;
+   padding-top: 40px;
+    
+}
 
+.con{
+    display: flex;
 }
-.conteudo2{
-    background-color: green;
-    margin-top: 10px;
-    height: 200px;
-   margin-left: 10px;
-   width: 350px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-   
+.par1{
+    display: flex;
 }
-.conteudo3{
+.par2{
+   display: flex;
+}
+.tes{
+    display: flex;
+    flex-direction: column;
+}
+.con1{
+    background-color: green;
+    margin-top: 10px;
+    height: 410px;
+    width: 400px;
+}
+.con2{
     background-color: green;
     margin-top: 10px;
     height: 200px;
-   margin-left: 10px;
-   width: 350px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-   }
-   .conteudo4{
+    width: 540px;
+    margin-left: 10px;
+}
+.con3{
     background-color: green;
     margin-top: 10px;
     height: 200px;
-   margin-left: 10px;
-   width: 350px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-   }
-   .conteudo5{
+    width: 130px;
+    margin-left: 10px;
+}
+.con4{
     background-color: green;
     margin-top: 10px;
     height: 200px;
-   margin-left: 10px;
-   width: 350px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-   }
-   
-.rodape{
-    background-color: brown;
-    height: 50%;
+    width: 250px;
+    margin-left: 10px;
+}
+.con5{
+    background-color: green;
     margin-top: 10px;
+    height: 200px;
+    width: 140px;
+    margin-left: 10px;
+}
+.con1 header{
+    color: white;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-top: 200px;
+    
 }
-.d{
-    display: flex;
-    flex-direction: column;
+.con3 header{
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    
+    
 }
+.con2 header{
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    
+    }
+.con4 header{
+     color: white;
+     text-align: center;
+     padding-top: 90px;
+ }
+ .con5 header{
+      color: white;
+      text-align: center;
+     padding-top: 90px;
+ }
+ .rodape{
+    background-color: brown;
+    margin-top: 10px;
+    height: 50px;
+ }
+ .rodape header{
+    color: white;
+      text-align: center;
+     padding-top: 15px;
+    
+ }
