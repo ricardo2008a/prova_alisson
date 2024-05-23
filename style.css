@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    width: 900px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.geral{
+   
+    height: 100px;
+    margin-top: 10px;
+
+   
+}
+.cabecalho{
+  background-color: blue;
+  height: 100%;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    
+
+}
+.conteudo{
+    background-color: green;
+    height: 400%;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.rodape{
+    background-color: brown;
+    height: 50%;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
